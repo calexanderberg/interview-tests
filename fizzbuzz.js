@@ -13,7 +13,7 @@ const fizzer = (i) => {
 
 const main = (v) => {
   for (let i = 1; i <= v; i++) {
-    // I really hate starting at 1...
+    // I really hate when for loops start at 1...
     console.log(fizzer(i));
   }
 };
