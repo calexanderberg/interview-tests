@@ -10,4 +10,6 @@ def main(v) :
   for i in range(1, v):
     fizzer(i)
 
-main(15)
+
+length = int(input("Please state a length of your for loop "))
+main(length)
